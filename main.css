@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    border-bottom: 1px solid rgb(59, 59, 59);
+}
+
+nav h2 { 
+    margin-left: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+nav h3 {
+    margin-right: 15px;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+
+/* 
+cards */
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+   
+}
+
+.tab {
+    width: 90%;
+    height: 15%;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.326);
+    margin: 10px;
+    padding: 6px;
+    position: relative;
+}
+
+.tab h5 {
+    background: linear-gradient(to right, #334d50, #cbcaa5); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tab h4 {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(184, 184, 184);
+}
+
+.tab h3 {
+    font-size: 21px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    background: linear-gradient(to right, #6f8076, #536976);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.tab  {
+    width: 94%;
+    border-bottom: 2px solid rgba(79, 79, 79, 0.315);
+    background-color: rgba(35, 35, 35, 0.265); 
+    border-radius: 8px;
+}
+
+
+
