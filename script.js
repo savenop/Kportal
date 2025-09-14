@@ -4,3 +4,6 @@ if ("serviceWorker" in navigator) {
     .then(() => console.log("Service Worker registered"));
 }
 
+function main() {
+  window.location.href = "./main.html";
+}
