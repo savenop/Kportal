@@ -1,0 +1,21 @@
+{
+  "name": "KPortal",
+  "short_name": "KPortal",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#1e1e1e",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "Kportal.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Kportal.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
