@@ -5,5 +5,5 @@ if ("serviceWorker" in navigator) {
 }
 
 function main() {
-  window.location.href = "./main.html";
+  window.location.href = "./TT/mon.html";
 }

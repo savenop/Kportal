@@ -23,26 +23,26 @@ nav {
     justify-content: space-between;
     background-color: #000000;
     border-bottom: 1px solid rgb(59, 59, 59);
+} 
+
+nav span {
+    color: lightblue;
 }
 
 nav h2 { 
     margin-left: 15px;
-    font-weight: 800;
-    letter-spacing: 1px;
+    font-weight: 800; 
 }
 
-nav h3 {
+.line3 {
     margin-right: 15px;
-    font-size: 15px;
-    border: 2px solid whitesmoke;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-weight: 600;
 }
 
 
 /* 
 cards */
+
+
 
 .wrapper {
     height: 100%;
@@ -52,6 +52,25 @@ cards */
     margin-top: 25px;
 }
 
+.dayhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 15px;
+    font-size: 25px;
+    margin-bottom: 15px;
+   
+
+    padding: 5px 10px;
+    font-weight: 600;
+    background: linear-gradient(to top, #334d50, #cbcaa5); /* Adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
 .tab {
     width: 90%;
     height: 15%;
@@ -59,6 +78,7 @@ cards */
     margin: 10px;
     padding: 6px;
     position: relative;
+    
 }
 
 .tab h5 {
@@ -75,7 +95,7 @@ cards */
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 1px;
-    background: linear-gradient(to right, #6a9c93, #ffffff);
+    background: linear-gradient(to right, #6d6d6d, #ffffff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
